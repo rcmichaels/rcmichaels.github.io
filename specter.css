@@ -1,0 +1,184 @@
+.post-header {
+  display: none;
+}
+  .comments {
+  display: none;
+}
+  body {
+  background-image: url('https://lh3.googleusercontent.com/d/1lGyvlx-V5rkWaaEHH8IMWobBOYl3IJ1E');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #0e1c2a;
+  font-family: "Rosario", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 1em;
+}
+  .wbox {
+  width: 1000px;
+  padding: 60px 70px 60px 70px;
+  margin: 0 auto;
+  font-size: 1.5em;
+  font-weight: 450;
+  color: #1a3845;
+  mask-repeat: no-repeat;
+  mask-size: 100%;
+  background: rgba(232, 242, 252, .8);
+  -webkit-mask-image: linear-gradient(to top, transparent, black 20px), linear-gradient(transparent, black 20px), linear-gradient(to left, transparent, black 20px), linear-gradient(to right, transparent, black 20px), linear-gradient(to left top, transparent, black 30px), linear-gradient(to right top, transparent, black 30px), linear-gradient(to right bottom, transparent, black 30px), linear-gradient(to left bottom, transparent, black 30px);
+  mask-image: linear-gradient(to top, transparent, black 20px), linear-gradient(transparent, black 20px), linear-gradient(to left, transparent, black 20px), linear-gradient(to right, transparent, black 20px), linear-gradient(to left top, transparent, black 30px), linear-gradient(to right top, transparent, black 30px), linear-gradient(to right bottom, transparent, black 30px), linear-gradient(to left bottom, transparent, black 30px);
+ mask-composite: intersect;
+ -webkit-mask-composite: intersect;
+}
+  .title-st {
+  width: 1150px;
+  font-family: "Vidaloka", serif;
+  font-optical-sizing: auto;
+  font-size: 6em;
+  font-variant: small-caps;
+  line-height: 1.1;
+  color: #d0dee8;
+  text-shadow: 0 0 20px black;
+}
+  .flavor-st {
+  font-optical-sizing: auto;
+  font-style: italic;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+  input.answer-input {
+  color: #1a3845;
+  font-family: 'Manjari', sans-serif;
+  font-size: 1em;
+  text-transform:uppercase;
+  font-weight:600;
+  border: 2px solid #1a3845;
+  border-radius: 4px;
+  vertical-align: middle;
+  -webkit-appearance: none;
+  -webkit-border-radius: 4px;
+  padding: 5px;
+  transition: 0.2s;
+  outline: none;
+}
+  input.answer-input:focus {
+  border: 2px solid #36a3d2;
+}
+  .answer-submit {
+  background-color: #1a3845;
+  border: 3px solid #1a3845;
+  border-radius: 4px;
+  color: #d0dee8;
+  cursor: pointer;
+  padding: 0px 5px;
+  vertical-align: middle;
+  transition: 0.2s;
+}
+  .answer-submit:hover {
+  background-color: #266986;
+  border: 3px solid #266986;
+}
+  .table-i {
+  border-spacing: 0;
+}
+  .table-i, .table-i td, .table-i tr {
+  border: 3px hidden;
+}
+  .table-i td {
+  padding: 5px 20px;
+}
+  .table-v, .table-v td {
+  border: 1.5px solid #f2ebf5;
+}
+  .table-v {
+  table-layout:fixed;
+  border-radius: 3px;
+  border-spacing: 0;
+}
+  .table-v td {
+  padding: 2px;
+  text-align: center;
+}
+  img {
+  display:block;
+  margin: 0 auto;
+}
+  .navibar {
+  overflow: hidden;
+  background-color: #d0dee8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 0 20px black;
+  z-index: 2;
+}
+  .navibar a {
+  float: left;
+  display: block;
+  color: #1a3845;
+  font-family: "Manjari", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.6em;
+  line-height: .6em;
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 30px 10px;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transform: scale(1,.75);
+  -moz-transform: scale(1,.75);
+  -ms-transform: scale(1,.75);
+  -o-transform: scale(1,.75);
+  transform: scale(1,.75);
+}
+  .navibar a:hover {
+  color: #266986;
+}
+  
+  .clipboard-only {
+  display: none;
+}
+  textarea#clipboard-contents {
+  display: none;
+}
+  button#clipboard-button {
+  border: 4px solid #266986;
+  border-radius: 30px;
+  background-color: #1a3845;
+  color: rgba(208, 222, 232, 0.5);
+  font-family: "Manjari", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.6em;
+  line-height: .6em;
+  font-weight: 500;
+  text-align: center;
+  height: 60px;
+  padding: 10px 12px 0;
+  position: fixed;
+  cursor: pointer;
+  bottom: 32px;
+  right: 32px;
+  overflow: hidden;
+  max-width: 480px;
+  word-break: break-all;
+}
+  button#clipboard-button:hover {
+  background-color: #266986;
+  border-color: #36a3d2;
+  color: rgba(208, 222, 232, 1);
+}
+  
+  .main {
+  margin-top: 30px;
+}
+  .hl {
+  color: #aa3311;
+  font-weight: bold;
+}
+  hr {
+  color:#545249;
+  height: 2px;
+  border-width: 0;
+  background-color: #545249;
+  width: 80%;
+}
